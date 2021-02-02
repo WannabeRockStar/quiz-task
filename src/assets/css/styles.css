@@ -136,10 +136,17 @@ header {
     background: #fff;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
 .search-container .search-icon {
     color: #3e64ff;
     padding-right: 20px;
     cursor: pointer;
+    position: relative;
+    top: 2px;
 }
 
 .search-container .search-input {
